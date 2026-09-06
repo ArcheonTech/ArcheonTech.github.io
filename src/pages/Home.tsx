@@ -14,32 +14,32 @@ const Marble3D = React.lazy(() => import("@/components/ui/marble-3d"));
 
 const PILLARS = [
   {
-    title: "Designed with teachers",
-    body: "Projects start in a classroom. We test during real class periods, not on a demo path.",
+    title: "Data from real classrooms",
+    body: "Our evidence comes from courses already in use, gathered under IRB protocols with consent from each participant.",
   },
   {
-    title: "AI inside the work",
-    body: "Language models that support what a teacher already does — drafting, adapting, noticing — with the teacher deciding.",
+    title: "AI as an instrument",
+    body: "We apply machine learning and language models as analytical methods, to see patterns in how students actually work.",
   },
   {
-    title: "Built to be used",
-    body: "We ship deployable systems and study them in place, under IRB protocols and with consent from each participant.",
+    title: "Open by default",
+    body: "Findings are published openly, and so is the underlying data wherever the participants have agreed to it.",
   },
 ];
 
 const CATEGORIES = [
   {
-    name: "Human–AI teaching",
+    name: "Assessment & feedback",
     visual: DialogueVisual,
     topics: ["AI-Assisted Grading", "Pedagogically Aligned LLMs"],
   },
   {
-    name: "Agents at the edge",
+    name: "Private, on-device analysis",
     visual: EdgeVisual,
     topics: ["Local LLM Agents", "Agentic Educational Workflows"],
   },
   {
-    name: "Classrooms & access",
+    name: "Engagement & access",
     visual: ClassroomVisual,
     topics: ["In-Classroom Gamification", "Open Education"],
   },
@@ -58,9 +58,10 @@ export function HomePage() {
           <div>
             <h1 className="text-4xl font-extrabold tracking-tight md:text-6xl">Marble Labs</h1>
             <p className="mt-4 max-w-[46ch] text-lg text-white/90 md:text-xl">
-              We build learning software that holds up in a real classroom, then study what it changes.
+              We study how learning actually happens, using classroom data and the analytical methods of
+              computer science.
             </p>
-            <p className="mt-3 text-sm text-white/60">HCI and AI for education · Trinity University</p>
+            <p className="mt-3 text-sm text-white/60">Learning analytics and AI · Trinity University</p>
 
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild size="lg" className="bg-white text-[#3a0263] hover:bg-white/90">
@@ -94,7 +95,7 @@ export function HomePage() {
         <div className="container mx-auto max-w-6xl px-4 py-14 md:py-20">
           <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">What we do</h2>
           <p className="mt-2 max-w-[62ch] text-muted-foreground">
-            We design, build, and evaluate tools for teaching and learning, across computer science, psychology, and
+            We analyze how people learn and publish what we find, working across computer science, psychology, and
             education.
           </p>
           <Separator className="my-8" />

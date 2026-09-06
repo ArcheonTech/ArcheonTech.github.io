@@ -9,14 +9,14 @@ const PROJECTS = [
     title: "AI-Assisted Grading",
     imageSrc: "projects/automated_and_ai_grading.png",
     description:
-      "AI-assisted grading and feedback for open-ended student responses (e.g., essays, code).",
+      "How reliably AI can assess open-ended student work (essays, code), and where its judgments diverge from a teacher's.",
     tags: ["LLMs", "NLP", "Education"],
   },
   {
     title: "Local LLM Agents",
     imageSrc: "projects/local_llm_agents.svg",
     description:
-      "Privacy-preserving, locally deployed LLM agents that run on-device to support students and teachers without sending data to the cloud.",
+      "Analysis that runs on-device, so the student data behind a finding never has to leave the machine it was collected on.",
     tags: ["LLMs", "Privacy", "Edge Computing"],
   },
   {
@@ -30,21 +30,21 @@ const PROJECTS = [
     title: "In-Classroom Gamification",
     imageSrc: "projects/classroom_gamification.png",
     description:
-      "Game-like mechanics (points, badges, leaderboards) and multiplayer modes to boost engagement and social learning in web-based activities.",
+      "Measuring what game-like mechanics and multiplayer modes actually do to engagement and social learning.",
     tags: ["Gamification", "Reward Systems", "Collaboration"],
   },
   {
     title: "Agentic Educational Workflows",
     imageSrc: "projects/agentic_educational_workflows.svg",
     description:
-      "Multi-step, autonomous AI workflows that handle complex educational tasks such as lesson planning, assessment creation, and adaptive content sequencing.",
+      "Evaluating multi-step agentic workflows on educational tasks — lesson planning, assessment creation, adaptive sequencing — to see where they hold up.",
     tags: ["AI Agents", "Automation", "Curriculum Design"],
   },
   {
     title: "Open Education",
     imageSrc: "projects/open_education.svg",
     description:
-      "Building and curating open-source tools, datasets, and curricula to make quality education accessible to all.",
+      "Open datasets, analysis code, and findings released under participant consent, so the work can be reproduced and extended.",
     tags: ["Open Source", "OER", "Accessibility"],
   },
 ] as const;
@@ -69,7 +69,7 @@ export function ResearchPage() {
             <header className="mb-6">
               <h1 className="text-3xl md:text-4xl font-bold tracking-tight">On-Going Projects</h1>
               <p className="mt-2 text-muted-foreground max-w-[70ch]">
-                We explore web‑native sensing and human‑AI systems for learning. Here are a few active projects and directions.
+                We study learning processes with sensing data and human‑AI methods. Here are a few active projects and directions.
               </p>
             </header>
 
