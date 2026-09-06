@@ -130,3 +130,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Travelling dash used by the research category visuals. */
+@keyframes dash-travel {
+  from {
+    stroke-dashoffset: 146;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}

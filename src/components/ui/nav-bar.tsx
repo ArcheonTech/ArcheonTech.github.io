@@ -89,8 +89,8 @@
 //         <div className="flex h-16 md:h-20 items-center justify-between gap-3">
 //           {/* Brand */}
 //           <NavLink to={`/`} end className="flex items-center gap-3">
-//             <img src="/logo-192x192.png" alt="Spiral Labs" className="h-10 md:h-12" />
-//             Spiral Labs
+//             <img src="/logo-192x192.png" alt="Marble Labs" className="h-10 md:h-12" />
+//             Marble Labs
 //           </NavLink>
 
 //           <DesktopNav />
@@ -219,8 +219,8 @@ export function NavBar() {
         <div className="flex h-16 md:h-20 items-center justify-between gap-3">
           {/* Brand → send home */}
            <NavLink to={`/`} end className="flex items-center gap-3">
-             <img src="/logo-192x192.png" alt="Spiral Labs" className="h-10 md:h-12" />
-             Spiral Labs
+             <img src="/logo-192x192.png" alt="Marble Labs" className="h-10 md:h-12" />
+             Marble Labs
            </NavLink>
 
           <DesktopNav />
